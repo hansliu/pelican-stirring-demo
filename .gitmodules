@@ -1,0 +1,3 @@
+[submodule "stirring"]
+	path = stirring
+	url = https://github.com/hansliu/pelican-stirring.git
