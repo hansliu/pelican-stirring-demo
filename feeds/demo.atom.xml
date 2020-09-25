@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Stirring: A Pelican theme - demo</title><link href="https://hansliu.com/pelican-stirring-demo/" rel="alternate"></link><link href="https://hansliu.com/pelican-stirring-demo/feeds/demo.atom.xml" rel="self"></link><id>https://hansliu.com/pelican-stirring-demo/</id><updated>2020-09-13T20:00:00+08:00</updated><entry><title>Demo Codes</title><link href="https://hansliu.com/pelican-stirring-demo/demo-codes.html" rel="alternate"></link><published>2020-09-13T20:00:00+08:00</published><updated>2020-09-13T20:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/pelican-stirring-demo/demo-codes.html</id><summary type="html">&lt;p&gt;Hello World!&lt;/p&gt;
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/Ada_(programming_language)"&gt;Ada&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="k"&gt;Ada&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text_IO&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="k"&gt;procedure&lt;/span&gt; &lt;span class="n"&gt;Hello_World&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt;
+ &lt;span class="n"&gt;use&lt;/span&gt; &lt;span class="k"&gt;Ada&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text_IO&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;begin&lt;/span&gt;
+    &lt;span class="n"&gt;Put_Line&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/C_(programming_language)"&gt;C&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/C%2B%2B"&gt;C++&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;endl&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/HTML"&gt;HTML&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Hello World!&lt;/p&gt;
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/Ada_(programming_language)"&gt;Ada&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="k"&gt;Ada&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text_IO&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="k"&gt;procedure&lt;/span&gt; &lt;span class="n"&gt;Hello_World&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt;
+ &lt;span class="n"&gt;use&lt;/span&gt; &lt;span class="k"&gt;Ada&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Text_IO&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;begin&lt;/span&gt;
+    &lt;span class="n"&gt;Put_Line&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/C_(programming_language)"&gt;C&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/C%2B%2B"&gt;C++&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;cout&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;endl&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/HTML"&gt;HTML&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+Hello, world!
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;body&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;html&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/Java_(programming_language)"&gt;Java&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;HelloWorld&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+   &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;static&lt;/span&gt; &lt;span class="kt"&gt;void&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="o"&gt;[]&lt;/span&gt; &lt;span class="n"&gt;args&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+       &lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+   &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/JavaScript"&gt;JavaScript&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To write to an HTML document:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;document.write(&amp;quot;Hello, world!&amp;quot;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To display an alert dialog box:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;alert(&amp;quot;Hello, world!&amp;quot;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To write to a console/debugging log:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;console.log(&amp;quot;Hello, world!&amp;quot;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using Mozilla's Rhino:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;print(&amp;quot;Hello, world!&amp;quot;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Using Windows Script Host:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;WScript.Echo(&amp;quot;Hello, world!&amp;quot;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://python.org/"&gt;Python&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Python 2&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Python 3&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://www.ruby-lang.org/"&gt;Ruby&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/Bourne_shell"&gt;Shell&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;&lt;a href="http://en.wikipedia.org/wiki/SQL"&gt;SQL&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;FROM&lt;/span&gt; &lt;span class="n"&gt;DUMMY&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;-- DUMMY is a standard table in SAP HANA.&lt;/span&gt;
+&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="k"&gt;FROM&lt;/span&gt; &lt;span class="n"&gt;DUAL&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="c1"&gt;-- DUAL is a standard table in Oracle.&lt;/span&gt;
+&lt;span class="k"&gt;SELECT&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;Hello, world!&amp;quot;&lt;/span&gt; &lt;span class="c1"&gt;-- This will work in SQL Server.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="demo"></category><category term="Pelican"></category><category term="Demo"></category></entry><entry><title>Demo Fonts</title><link href="https://hansliu.com/pelican-stirring-demo/demo-fonts.html" rel="alternate"></link><published>2020-09-13T20:00:00+08:00</published><updated>2020-09-13T20:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/pelican-stirring-demo/demo-fonts.html</id><summary type="html">&lt;p&gt;The font-family is below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;'Noto Sans TC', 'Open Sans', sans-serif;&lt;/li&gt;
+&lt;li&gt;'Noto Serif TC', 'Times New Roman', serif;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To generate its HTML output, Pelican uses the Jinja templating engine due to its flexibility and straightforward syntax. If you want to create your own theme, feel free to take inspiration from …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The font-family is below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;'Noto Sans TC', 'Open Sans', sans-serif;&lt;/li&gt;
+&lt;li&gt;'Noto Serif TC', 'Times New Roman', serif;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To generate its HTML output, Pelican uses the Jinja templating engine due to its flexibility and straightforward syntax. If you want to create your own theme, feel free to take inspiration from the "simple" theme.&lt;/p&gt;
+&lt;p&gt;And, you could check out the category index to see the layout when post 3 articles.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;臣亮言：先帝創業未半，而中道崩殂。今天下三分，益州疲敝，此誠危急存亡之秋也！然侍衞之臣，不懈於內；忠志之士，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲薄，引喻失義，以塞忠諫之路也。&lt;/p&gt;</content><category term="demo"></category><category term="Demo"></category></entry><entry><title>Demo Post</title><link href="https://hansliu.com/pelican-stirring-demo/demo-post.html" rel="alternate"></link><published>2020-09-13T20:00:00+08:00</published><updated>2020-09-13T20:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/pelican-stirring-demo/demo-post.html</id><summary type="html">&lt;h1&gt;h1 heading&lt;/h1&gt;
+&lt;h2&gt;h2 heading&lt;/h2&gt;
+&lt;h3&gt;h3 heading&lt;/h3&gt;
+&lt;h4&gt;h4 heading&lt;/h4&gt;
+&lt;h5&gt;h5 heading&lt;/h5&gt;
+&lt;h6&gt;h6 heading&lt;/h6&gt;
+&lt;h2&gt;Unordered List&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ordered List&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pelican is a static site generator, written in Python. Highlights include:&lt;/p&gt;
+&lt;p&gt;Write your content directly with your editor of choice in reStructuredText or Markdown formats
+Includes a …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;h1&gt;h1 heading&lt;/h1&gt;
+&lt;h2&gt;h2 heading&lt;/h2&gt;
+&lt;h3&gt;h3 heading&lt;/h3&gt;
+&lt;h4&gt;h4 heading&lt;/h4&gt;
+&lt;h5&gt;h5 heading&lt;/h5&gt;
+&lt;h6&gt;h6 heading&lt;/h6&gt;
+&lt;h2&gt;Unordered List&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Ordered List&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;apple&lt;/li&gt;
+&lt;li&gt;ball&lt;/li&gt;
+&lt;li&gt;cat&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Quotes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pelican is a static site generator, written in Python. Highlights include:&lt;/p&gt;
+&lt;p&gt;Write your content directly with your editor of choice in reStructuredText or Markdown formats
+Includes a simple CLI tool to (re)generate your site
+Easy to interface with distributed version control systems and web hooks
+Completely static output is easy to host anywhere&lt;/p&gt;
+&lt;p&gt;Ready to get started? Check out the Quickstart guide.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;this is strong&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;this is italic&lt;/em&gt;&lt;/p&gt;</content><category term="demo"></category><category term="Pelican"></category><category term="Demo"></category></entry></feed>
